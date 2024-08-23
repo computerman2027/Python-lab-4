@@ -8,7 +8,7 @@ for i in range(1,1001):
         s=s+((copy%10)**n)
         copy//=10
     if s==i:
-        print(i)
+        print(i,end=" ")
 
     
 #wap to find Armstrong numbers for a range 1 to 1000
