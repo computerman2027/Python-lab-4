@@ -1,3 +1,4 @@
+print("Prime numbers from 1 to 100 are : ")
 for i in range(1,101):
     j=2
     f=0
@@ -8,8 +9,8 @@ for i in range(1,101):
             f=1
             break
         j+=1
-    if f==0:
-        print(i)
+    else:
+        print(i,end=" ")
     
         
 #wap to print prime numbers for a range of 1 to 100

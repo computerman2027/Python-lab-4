@@ -1,9 +1,9 @@
 print("Fibonacci numbers from 1 to 100 are :")
-a=0
-b=1
+a=1
+b=0
 c=a+b
 while c<=100:
-    print(c)
+    print(c, end=" ")
     a=b
     b=c
     c=a+b
