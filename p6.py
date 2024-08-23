@@ -1,7 +1,4 @@
-total=0
-count=0
-avg=0
-n=0
+total=count=avg=n=0
 while True:
     try:
         st=input("Enter number : ")
