@@ -12,3 +12,4 @@ for i in range(1,101):
         print(i)
     
         
+#wap to print prime numbers for a range of 1 to 100

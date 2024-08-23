@@ -1,5 +1,5 @@
 try:
-    n = int(input("Enter a number"))
+    n = int(input("Enter a number : "))
     if(n<1):
         print("Invalid input")
     elif(n==1):
@@ -16,3 +16,5 @@ try:
         
 except ValueError:
     print("Only positive integer numbers are allowed ")
+
+#WAP TO FIND WHETHER A NUMBER IS PRIME OR NOT
