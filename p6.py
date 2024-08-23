@@ -8,7 +8,8 @@ while True:
         if(st=="done"):
             print("total = ",total)
             print("count = ",count)
-            print("average = ",avg)
+            print("average = ",round(avg,2))
+            break
         else:
             n=int(st)
     except:
